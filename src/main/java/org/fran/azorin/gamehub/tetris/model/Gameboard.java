@@ -1,7 +1,4 @@
-/**
- * 
- */
-package model;
+package org.fran.azorin.gamehub.tetris.model;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -17,7 +14,7 @@ public class Gameboard {
 	/**
 	 * Atributo de clase Gameboard que contiene un Mapa con las piezas y sus posiciones
 	 */
-	private Map<Coordinate, Piece> gameboard = new HashMap<Coordinate, Piece>();
+	private Map<Coordinate, model.Piece> gameboard = new HashMap<Coordinate, model.Piece>();
 	
 	/**
 	 * Atributo de clase Gameboard que indica la altura del tablero
@@ -65,7 +62,7 @@ public class Gameboard {
 	 * @param p Piece
 	 * @return Boolean que indica si la posicion es valida (True) o si NO lo es (False)
 	 */
-	public boolean isPlaceValid(Coordinate c, Piece p) {
+	public boolean isPlaceValid(Coordinate c, model.Piece p) {
 
 		boolean valid = true;
 		Set<Coordinate>squares = p.getAbsoluteCells(c);
@@ -86,7 +83,7 @@ public class Gameboard {
 	 * @param p Piece
 	 * @return Boolean que indica si la posicion esta libre (True) o si NO lo esta (False)
 	 */
-	public boolean isPlaceFree(Coordinate c, Piece p) {
+	public boolean isPlaceFree(Coordinate c, model.Piece p) {
 		
 		boolean free = true;
 		Set<Coordinate> squares = p.getAbsoluteCells(c);
@@ -106,7 +103,7 @@ public class Gameboard {
 	 * @param c Coordinate
 	 * @param p Piece
 	 */
-	public void putPiece(Coordinate c, Piece p) {
+	public void putPiece(Coordinate c, model.Piece p) {
 
 		Set<Coordinate> squares = p.getAbsoluteCells(c);
 		for(Coordinate cor:squares) {
@@ -118,14 +115,14 @@ public class Gameboard {
 	 * Metodo que elimina una pieza del tablero
 	 * @param p Piece
 	 */
-	public void removePiece(Piece p) {
+	public void removePiece(model.Piece p) {
 	
 		for (int i = 0; i < width; i++) {
 			
 			for (int j = 0; j < height; j++) {
 				
 				Coordinate c = new Coordinate(j, i);
-				Piece actual = gameboard.get(c);
+				model.Piece actual = gameboard.get(c);
 				
 				if (actual == p) {
 					do {
@@ -143,7 +140,7 @@ public class Gameboard {
 	 * @param c Coordinate
 	 * @return Piece (Referencia)
 	 */
-	public Piece getCellContent(Coordinate c) {
+	public model.Piece getCellContent(Coordinate c) {
 		return gameboard.get(c);
 	}
 	
@@ -153,7 +150,7 @@ public class Gameboard {
 	 * @param c Coordinate
 	 * @param p Piece
 	 */
-	public void setCellContent(Coordinate c, Piece p) {
+	public void setCellContent(Coordinate c, model.Piece p) {
 		gameboard.put(c, p);
 	}
 	

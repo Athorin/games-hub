@@ -1,24 +1,15 @@
-/**
- * 
- */
-package modelo;
+package conway.modelo;
 
-import static org.junit.Assert.*;
-
-
-import java.util.HashSet;
-
-
-
-
+import org.fran.azorin.gamehub.conway.modelo.*;
+import org.fran.azorin.gamehub.conway.modelo.excepciones.ExcepcionCoordenadaIncorrecta;
+import org.fran.azorin.gamehub.conway.modelo.excepciones.ExcepcionPosicionFueraTablero;
 import org.junit.Before;
 import org.junit.Test;
 
-import modelo.excepciones.ExcepcionCoordenadaIncorrecta;
-import modelo.excepciones.ExcepcionPosicionFueraTablero;
+import java.util.HashSet;
 
 /**
- * @author gonzalo
+ * @author fran
  *
  */
 public class PatronP2Test {
@@ -39,7 +30,7 @@ public class PatronP2Test {
 		xtab = 3;
 		ytab = 3;
 		tablero = new TableroCeldasCuadradas(xtab,ytab);
-		tablero.setCelda(new Coordenada2D(0,0),EstadoCelda.VIVA);
+		tablero.setCelda(new Coordenada2D(0,0), EstadoCelda.VIVA);
 		tablero.setCelda(new Coordenada2D(1,1),EstadoCelda.VIVA);
 		tablero.setCelda(new Coordenada2D(2,2),EstadoCelda.VIVA);
 		snombre = new String ("Diagonal");

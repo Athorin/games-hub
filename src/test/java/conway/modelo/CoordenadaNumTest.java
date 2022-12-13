@@ -1,10 +1,11 @@
-package modelo;
+package conway.modelo;
 
-import static org.junit.Assert.*;
-
+import org.fran.azorin.gamehub.conway.modelo.Coordenada;
 import org.junit.Before;
 import org.junit.Test;
-import modelo.Coordenada;
+
+import static org.junit.Assert.assertEquals;
+
 
 /**
  * @author Faag1-48643667

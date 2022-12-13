@@ -1,13 +1,11 @@
-package modelo;
+package org.fran.azorin.gamehub.conway.modelo;
+
+import org.fran.azorin.gamehub.conway.modelo.excepciones.*;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 
-import modelo.excepciones.ExcepcionArgumentosIncorrectos;
-import modelo.excepciones.ExcepcionCoordenadaIncorrecta;
-import modelo.excepciones.ExcepcionEjecucion;
-import modelo.excepciones.ExcepcionPosicionFueraTablero;
 
 /**
  * Clase Tablero
@@ -31,7 +29,7 @@ public abstract class Tablero {
 		 * Guarda las dimensiones del tablero. 
 		 * @param dimensiones Coordenadas de las Dimensiones del Tablero
 		 */
-		public Tablero(Coordenada dimensiones) throws ExcepcionArgumentosIncorrectos{
+		public Tablero(Coordenada dimensiones) throws ExcepcionArgumentosIncorrectos {
 			
 			if(dimensiones == null) throw new ExcepcionArgumentosIncorrectos();
 			else {

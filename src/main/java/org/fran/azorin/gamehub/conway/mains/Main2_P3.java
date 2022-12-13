@@ -1,19 +1,15 @@
-package mains;
+package org.fran.azorin.gamehub.conway.mains;
+
+
+import org.fran.azorin.gamehub.conway.modelo.*;
+import org.fran.azorin.gamehub.conway.modelo.excepciones.ExcepcionCoordenadaIncorrecta;
+import org.fran.azorin.gamehub.conway.modelo.excepciones.ExcepcionPosicionFueraTablero;
 
 import java.util.ArrayList;
 
-import modelo.Coordenada;
-import modelo.EstadoCelda;
-import modelo.Juego;
-import modelo.Patron;
-import modelo.ReglaConway;
-import modelo.Tablero;
-import modelo.excepciones.ExcepcionCoordenadaIncorrecta;
-import modelo.excepciones.ExcepcionPosicionFueraTablero;
-
 /**
-@author drizo
- **/
+ * @author fran
+ */
 public class Main2_P3 {
 
 	public static void main(String[] args) {

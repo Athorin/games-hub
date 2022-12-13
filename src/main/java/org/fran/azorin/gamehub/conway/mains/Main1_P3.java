@@ -1,19 +1,17 @@
 package mains;
 
+import org.fran.azorin.gamehub.conway.modelo.Coordenada;
+
 import java.util.ArrayList;
 
-import modelo.Coordenada;
-import modelo.excepciones.ExcepcionCoordenadaIncorrecta;
-
 /**
-@author drizo
- **/
+ * @author fran
+ */
 public class Main1_P3 {
 
 	/**
 	 * Clase principal de la P1
 	 * @param args
-	 * @throws ExcepcionCoordenadaIncorrecta 
 	 */
 	public static void main(String[] args)  {
 		try {

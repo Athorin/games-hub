@@ -1,7 +1,4 @@
-/**
- * 
- */
-package ships;
+package org.fran.azorin.gamehub.battleship.ships;
 
 /**
  * @author Fran Azorin

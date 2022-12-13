@@ -1,13 +1,13 @@
-package mains;
+package org.fran.azorin.gamehub.tetris.mains;
 
-import model.Coordinate;
-import model.Game;
-import model.Piece;
+import org.fran.azorin.gamehub.tetris.model.Coordinate;
+import org.fran.azorin.gamehub.tetris.model.Game;
+import org.fran.azorin.gamehub.tetris.model.Piece;
 
 public class Main2 {
 	
 	public static void main(String[] args) {	
-		Game game= new Game(new Coordinate(7, 10));
+		Game game = new Game(new Coordinate(7, 10));
 		System.out.println(game.toString());
 		game.nextPiece();
 		System.out.println(game.toString());

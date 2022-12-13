@@ -1,15 +1,17 @@
-package model;
+package tetris.model;
 
-import static org.junit.Assert.*;
+import org.fran.azorin.gamehub.tetris.model.Coordinate;
+import org.fran.azorin.gamehub.tetris.model.Game;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintStream;
 import java.util.Scanner;
 
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import static org.junit.Assert.*;
 
 /*
  * Busca en este fichero los test

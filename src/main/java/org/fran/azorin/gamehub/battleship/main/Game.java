@@ -1,9 +1,6 @@
-/**
- * 
- */
-package main;
+package org.fran.azorin.gamehub.battleship.main;
 
-import table.Table;
+import org.fran.azorin.gamehub.battleship.table.Table;
 
 /**
  * @author Fran Azorin

@@ -1,13 +1,14 @@
-package modelo;
+package conway.modelo;
 
-import static org.junit.Assert.*;
-
+import org.fran.azorin.gamehub.conway.modelo.Coordenada;
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.junit.Assert.*;
+
 /**
-@author jgonzalo
- **/
+ * @author fran
+ */
 public class CoordenadaTest {
 	Coordenada c;
 	

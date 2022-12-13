@@ -1,6 +1,6 @@
-package modelo.excepciones;
+package org.fran.azorin.gamehub.conway.modelo.excepciones;
 
-import modelo.Coordenada;
+import org.fran.azorin.gamehub.conway.modelo.Coordenada;
 
 /**
  * Clase que recoge las excepciones de posiciones que estan fuera del tablero

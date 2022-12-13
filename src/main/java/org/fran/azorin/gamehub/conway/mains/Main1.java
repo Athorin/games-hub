@@ -1,8 +1,10 @@
-package mains;
+package org.fran.azorin.gamehub.conway.mains;
+
+import org.fran.azorin.gamehub.conway.modelo.Coordenada;
 
 import java.util.ArrayList;
 
-import modelo.Coordenada;
+
 
 /**
  * Clase principal de la practica 1

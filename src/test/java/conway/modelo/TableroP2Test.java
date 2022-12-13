@@ -1,27 +1,23 @@
-/**
- * 
- */
-package modelo;
+package conway.modelo;
 
-import static org.junit.Assert.*;
-
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.PrintStream;
-import java.util.Scanner;
-import java.util.Set;
-import java.util.ArrayList;
-
+import org.fran.azorin.gamehub.conway.modelo.*;
+import org.fran.azorin.gamehub.conway.modelo.excepciones.ExcepcionCoordenadaIncorrecta;
+import org.fran.azorin.gamehub.conway.modelo.excepciones.ExcepcionPosicionFueraTablero;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import modelo.excepciones.ExcepcionCoordenada2DIncorrecta;
-import modelo.excepciones.ExcepcionCoordenadaIncorrecta;
-import modelo.excepciones.ExcepcionPosicionFueraTablero;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.util.Set;
+
+import static org.junit.Assert.*;
 
 /**
- * @author gonzalo
+ * @author fran
  *
  */
 public class TableroP2Test {

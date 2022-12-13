@@ -1,8 +1,6 @@
-package modelo;
+package org.fran.azorin.gamehub.conway.modelo;
 
-import modelo.excepciones.ExcepcionArgumentosIncorrectos;
-import modelo.excepciones.ExcepcionCoordenada2DIncorrecta;
-import modelo.excepciones.ExcepcionCoordenadaIncorrecta;
+import org.fran.azorin.gamehub.conway.modelo.excepciones.*;
 
 /**
  * Clase Coordenada que implementa la encapsulacion del objeto Coordenada de 2 Dimensiones

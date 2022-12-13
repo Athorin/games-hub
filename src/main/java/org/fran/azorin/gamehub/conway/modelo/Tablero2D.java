@@ -1,12 +1,10 @@
-package modelo;
+package org.fran.azorin.gamehub.conway.modelo;
+
+import org.fran.azorin.gamehub.conway.modelo.excepciones.*;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import modelo.excepciones.ExcepcionArgumentosIncorrectos;
-import modelo.excepciones.ExcepcionCoordenadaIncorrecta;
-import modelo.excepciones.ExcepcionEjecucion;
-import modelo.excepciones.ExcepcionPosicionFueraTablero;
 
 /**
  * Clase Tablero de 2 Dimensiones

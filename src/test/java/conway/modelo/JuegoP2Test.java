@@ -1,24 +1,22 @@
-/**
- * 
- */
 package modelo;
-import java.util.ArrayList;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.PrintStream;
-import java.util.Scanner;
 
-import static org.junit.Assert.*;
-
+import org.fran.azorin.gamehub.conway.modelo.*;
+import org.fran.azorin.gamehub.conway.modelo.excepciones.ExcepcionCoordenadaIncorrecta;
+import org.fran.azorin.gamehub.conway.modelo.excepciones.ExcepcionPosicionFueraTablero;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import modelo.excepciones.ExcepcionCoordenadaIncorrecta;
-import modelo.excepciones.ExcepcionPosicionFueraTablero;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import static org.junit.Assert.*;
 
 /**
- * @author gonzalo
+ * @author fran
  *
  */
 public class JuegoP2Test {
@@ -73,7 +71,7 @@ public class JuegoP2Test {
 	 * @throws ExcepcionPosicionFueraTablero 
 	 */
 	@Test(expected = ExcepcionPosicionFueraTablero.class)
-	public void testNoCargaPatron() throws ExcepcionPosicionFueraTablero, ExcepcionCoordenadaIncorrecta {				
+	public void testNoCargaPatron() throws ExcepcionPosicionFueraTablero, ExcepcionCoordenadaIncorrecta {
 		juego.cargaPatron(patronglider, new Coordenada2D(8,10));
 	}
 

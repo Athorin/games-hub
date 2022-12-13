@@ -1,6 +1,7 @@
-package modelo;
+package org.fran.azorin.gamehub.conway.modelo;
 
-import modelo.excepciones.ExcepcionPosicionFueraTablero;
+
+import org.fran.azorin.gamehub.conway.modelo.excepciones.ExcepcionPosicionFueraTablero;
 
 /**
  * Clase Abstracta Regla

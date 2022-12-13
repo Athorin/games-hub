@@ -1,15 +1,16 @@
-/**
- * 
- */
-package model;
+package tetris.model;
 
-import static org.junit.Assert.*;
-
-import java.util.Set;
-
+import org.fran.azorin.gamehub.tetris.model.Coordinate;
+import org.fran.azorin.gamehub.tetris.model.Gameboard;
+import org.fran.azorin.gamehub.tetris.model.Piece;
+import org.fran.azorin.gamehub.tetris.model.Rotation;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+
+import java.util.Set;
+
+import static org.junit.Assert.*;
 
 /*
  * Busca en este fichero los test

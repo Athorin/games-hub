@@ -1,7 +1,7 @@
-package modelo;
+package org.fran.azorin.gamehub.conway.modelo;
 
-import modelo.excepciones.ExcepcionArgumentosIncorrectos;
-import modelo.excepciones.ExcepcionCoordenadaIncorrecta;
+import org.fran.azorin.gamehub.conway.modelo.excepciones.ExcepcionArgumentosIncorrectos;
+import org.fran.azorin.gamehub.conway.modelo.excepciones.ExcepcionCoordenadaIncorrecta;
 
 /**
  * Clase Abstracta Coordenada

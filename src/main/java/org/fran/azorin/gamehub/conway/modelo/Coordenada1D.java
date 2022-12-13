@@ -1,4 +1,4 @@
-package modelo;
+package org.fran.azorin.gamehub.conway.modelo;
 
 import modelo.excepciones.ExcepcionArgumentosIncorrectos;
 import modelo.excepciones.ExcepcionCoordenada1DIncorrecta;

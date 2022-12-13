@@ -1,15 +1,12 @@
-/**
- * Main package for the first assignment.
- */
-package mains;
+package org.fran.azorin.gamehub.tetris.mains;
+
+import org.fran.azorin.gamehub.tetris.model.Coordinate;
 
 import java.util.ArrayList;
 
-import model.Coordinate;
-
 /**
-@author drizo
- **/
+ * @author fran
+ */
 public class Main1 {
 
 	/**
@@ -17,7 +14,7 @@ public class Main1 {
 	 * @param args Arguments from command line.
 	 */
 	public static void main(String[] args) {
-		Coordinate c0; // no instance created for c0 
+		Coordinate c0; // no instance created for c0
 		Coordinate c1 = new Coordinate(0,0);
 		Coordinate c2 = new Coordinate(10,10);
 		Coordinate c3 = new Coordinate(4,3);

@@ -1,7 +1,4 @@
-/**
- * 
- */
-package modelo;
+package org.fran.azorin.gamehub.conway.modelo;
 
 /**
  * enum EstadoCelda

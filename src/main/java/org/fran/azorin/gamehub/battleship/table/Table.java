@@ -1,10 +1,7 @@
-/**
- * 
- */
-package table;
+package org.fran.azorin.gamehub.battleship.table;
 
-import ships.Cruise;
-import ships.Ship;
+import org.fran.azorin.gamehub.battleship.ships.Cruise;
+import org.fran.azorin.gamehub.battleship.ships.Ship;
 
 /**
  * @author Fran Azorin

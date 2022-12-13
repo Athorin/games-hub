@@ -1,9 +1,5 @@
-/**
- * 
- */
-package model;
+package org.fran.azorin.gamehub.tetris.model;
 
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -19,7 +15,7 @@ public class Piece {
 	/**
 	 * Atributo de Piece que representa la orientacion de la pieza
 	 */
-	private Rotation orientation;
+	private model.Rotation orientation;
 	
 	/**
 	 * Atributo de Piece que representa si esta fija o no
@@ -49,7 +45,7 @@ public class Piece {
 	 * Constructor por Defecto de Piece
 	 */
 	public Piece() {
-		this.orientation = Rotation.D0;
+		this.orientation = model.Rotation.D0;
 		this.fixed = false;
 		this.blockSymbol = '▒';
 	}
@@ -79,7 +75,7 @@ public class Piece {
 	 * Metodo que indica la orientacion de la pieza
 	 * @return Rotation orientation
 	 */
-	public Rotation getOrientation() {
+	public model.Rotation getOrientation() {
 		return orientation;
 	}
 	
@@ -117,7 +113,7 @@ public class Piece {
 	 * Metodo que asigna una nueva orientacion a la pieza
 	 * @param r Rotation que se le asigna
 	 */
-	public void setOrientation(Rotation r) {
+	public void setOrientation(model.Rotation r) {
 		orientation = r;
 	}
 	
@@ -163,10 +159,10 @@ public class Piece {
 	public void rotateClockwise() {
 		
 		switch(orientation) {
-			case D0: orientation = Rotation.D270; break;
-			case D270: orientation = Rotation.D180; break;
-			case D180: orientation = Rotation.D90; break;
-			case D90: orientation = Rotation.D0; break;
+			case D0: orientation = model.Rotation.D270; break;
+			case D270: orientation = model.Rotation.D180; break;
+			case D180: orientation = model.Rotation.D90; break;
+			case D90: orientation = model.Rotation.D0; break;
 		}
 	}
 	
@@ -176,10 +172,10 @@ public class Piece {
 	public void rotateCounterclockwise() {
 		
 		switch(orientation) {
-			case D0: orientation = Rotation.D90; break;
-			case D90: orientation = Rotation.D180; break;
-			case D180: orientation = Rotation.D270; break;
-			case D270: orientation = Rotation.D0; break;
+			case D0: orientation = model.Rotation.D90; break;
+			case D90: orientation = model.Rotation.D180; break;
+			case D180: orientation = model.Rotation.D270; break;
+			case D270: orientation = model.Rotation.D0; break;
 		}
 	}
 	

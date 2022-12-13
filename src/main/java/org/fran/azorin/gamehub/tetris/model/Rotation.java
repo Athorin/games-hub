@@ -1,7 +1,4 @@
-/**
- * 
- */
-package model;
+package org.fran.azorin.gamehub.tetris.model;
 
 /**
  * Clase Rotation

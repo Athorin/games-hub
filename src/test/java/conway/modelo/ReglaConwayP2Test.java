@@ -1,19 +1,14 @@
-/**
- * 
- */
-package modelo;
+package conway.modelo;
 
-import static org.junit.Assert.*;
-
+import org.fran.azorin.gamehub.conway.modelo.*;
+import org.fran.azorin.gamehub.conway.modelo.excepciones.ExcepcionCoordenadaIncorrecta;
+import org.fran.azorin.gamehub.conway.modelo.excepciones.ExcepcionPosicionFueraTablero;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import modelo.excepciones.ExcepcionCoordenadaIncorrecta;
-import modelo.excepciones.ExcepcionPosicionFueraTablero;
-
 /**
- * @author gonzalo
+ * @author fran
  *
  */
 public class ReglaConwayP2Test {

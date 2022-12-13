@@ -1,7 +1,4 @@
-/**
- * 
- */
-package model;
+package org.fran.azorin.gamehub.tetris.model;
 
 /**
  * Clase que representa una partida al Tetris.
@@ -19,11 +16,11 @@ public class Game {
 	/**
 	 * Atributo Gameboard que almacena un tablero
 	 */
-	private Gameboard board;
+	private model.Gameboard board;
 	/**
 	 * Atributo Piece que almacena la pieza actual
 	 */
-	private Piece currentPiece;
+	private model.Piece currentPiece;
 	/**
 	 * Atributo Coordinate que almacena la posicion actual
 	 */
@@ -37,7 +34,7 @@ public class Game {
 	 */
 	public Game(Coordinate c) {
 		
-		this.board = new Gameboard(c);
+		this.board = new model.Gameboard(c);
 		this.gameEnded = false;
 	}
 	

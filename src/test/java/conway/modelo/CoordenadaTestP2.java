@@ -1,15 +1,15 @@
-package modelo;
+package conway.modelo;
 
-import static org.junit.Assert.*;
-
+import org.fran.azorin.gamehub.conway.modelo.Coordenada2D;
+import org.fran.azorin.gamehub.conway.modelo.excepciones.ExcepcionCoordenadaIncorrecta;
 import org.junit.Before;
 import org.junit.Test;
 
-import modelo.excepciones.ExcepcionCoordenadaIncorrecta;
+import static org.junit.Assert.*;
 
 /**
-@author jgonzalo
- **/
+ * @author fran
+ */
 public class CoordenadaTestP2 {
 	Coordenada2D c;
 	

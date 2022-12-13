@@ -1,12 +1,8 @@
-/**
- * 
- */
-package modelo;
+package org.fran.azorin.gamehub.conway.modelo;
+
+import org.fran.azorin.gamehub.conway.modelo.excepciones.*;
 
 import java.util.Collection;
-
-import modelo.excepciones.ExcepcionArgumentosIncorrectos;
-import modelo.excepciones.ExcepcionPosicionFueraTablero;
 
 
 /**

@@ -1,4 +1,4 @@
-package modelo.excepciones;
+package org.fran.azorin.gamehub.conway.modelo.excepciones;
 
 /**
  * Clase que recoge las excepciones de las coordenadas incorrectas

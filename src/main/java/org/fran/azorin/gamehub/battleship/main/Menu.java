@@ -1,7 +1,4 @@
-/**
- * 
- */
-package main;
+package org.fran.azorin.gamehub.battleship.main;
 
 import java.util.Scanner;
 

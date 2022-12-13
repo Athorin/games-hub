@@ -1,16 +1,12 @@
-package mains;
+package org.fran.azorin.gamehub.conway.mains;
+
+import org.fran.azorin.gamehub.conway.modelo.*;
 
 import java.util.ArrayList;
-import modelo.Coordenada;
-import modelo.EstadoCelda;
-import modelo.Juego;
-import modelo.Patron;
-import modelo.ReglaConway;
-import modelo.Tablero;
 
 /**
-@author Faag1-48643667
- **/
+ * @author Faag1-48643667
+ */
 public class Main2 {
 
 	public static void main(String[] args) {
@@ -27,7 +23,7 @@ public class Main2 {
 		tableroPatron.setCelda(new Coordenada(0,2), EstadoCelda.VIVA);
 		tableroPatron.setCelda(new Coordenada(1,2), EstadoCelda.VIVA);
 		tableroPatron.setCelda(new Coordenada(2,2), EstadoCelda.VIVA);
-		Patron patron = new Patron("Glider", tableroPatron);	
+		Patron patron = new Patron("Glider", tableroPatron);
 		
 		// creamos otro patrón
 		Tablero tableroPatron2 = new Tablero(new Coordenada(2,2));

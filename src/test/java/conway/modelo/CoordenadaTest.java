@@ -1,6 +1,6 @@
 package conway.modelo;
 
-import org.fran.azorin.gamehub.conway.modelo.Coordenada;
+import org.fran.azorin.gamehub.games.conway.modelo.Coordenada;
 import org.junit.Before;
 import org.junit.Test;
 

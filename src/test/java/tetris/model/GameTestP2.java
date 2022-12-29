@@ -1,7 +1,7 @@
 package tetris.model;
 
-import org.fran.azorin.gamehub.tetris.model.Coordinate;
-import org.fran.azorin.gamehub.tetris.model.Game;
+import org.fran.azorin.gamehub.games.tetris.model.Coordinate;
+import org.fran.azorin.gamehub.games.tetris.model.Game;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;

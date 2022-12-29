@@ -1,8 +1,8 @@
 package conway.modelo;
 
-import org.fran.azorin.gamehub.conway.modelo.*;
-import org.fran.azorin.gamehub.conway.modelo.excepciones.ExcepcionCoordenadaIncorrecta;
-import org.fran.azorin.gamehub.conway.modelo.excepciones.ExcepcionPosicionFueraTablero;
+import org.fran.azorin.gamehub.games.conway.modelo.*;
+import org.fran.azorin.gamehub.games.conway.modelo.excepciones.ExcepcionCoordenadaIncorrecta;
+import org.fran.azorin.gamehub.games.conway.modelo.excepciones.ExcepcionPosicionFueraTablero;
 import org.junit.Before;
 import org.junit.Test;
 

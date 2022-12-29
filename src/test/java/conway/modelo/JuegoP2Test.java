@@ -1,8 +1,8 @@
 package modelo;
 
-import org.fran.azorin.gamehub.conway.modelo.*;
-import org.fran.azorin.gamehub.conway.modelo.excepciones.ExcepcionCoordenadaIncorrecta;
-import org.fran.azorin.gamehub.conway.modelo.excepciones.ExcepcionPosicionFueraTablero;
+import org.fran.azorin.gamehub.games.conway.modelo.*;
+import org.fran.azorin.gamehub.games.conway.modelo.excepciones.ExcepcionCoordenadaIncorrecta;
+import org.fran.azorin.gamehub.games.conway.modelo.excepciones.ExcepcionPosicionFueraTablero;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -165,7 +165,7 @@ public class JuegoP2Test {
 		for (int i=0; i<10; i++)
 			for (int j=0; j<1; j++) {
 				c = new Coordenada2D(i,j);
-				assertEquals("Estado ("+i+","+j+") = MUERTA",EstadoCelda.MUERTA,juego1.getTablero().getCelda(c));
+				assertEquals("Estado ("+i+","+j+") = MUERTA", EstadoCelda.MUERTA,juego1.getTablero().getCelda(c));
 			}
 	}
 	

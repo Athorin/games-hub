@@ -1,7 +1,7 @@
 package conway.modelo;
 
-import org.fran.azorin.gamehub.conway.modelo.Coordenada2D;
-import org.fran.azorin.gamehub.conway.modelo.excepciones.ExcepcionCoordenadaIncorrecta;
+import org.fran.azorin.gamehub.games.conway.modelo.Coordenada2D;
+import org.fran.azorin.gamehub.games.conway.modelo.excepciones.ExcepcionCoordenadaIncorrecta;
 import org.junit.Before;
 import org.junit.Test;
 

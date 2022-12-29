@@ -59,7 +59,7 @@ public class Menu {
         Integer selectedItem;
         final Scanner in = new Scanner(System.in);
         do {
-            System.out.print("Introduzca su selección ");
+            System.out.print("Select: ");
             selectedItem = in.nextInt();
         } while (!this.isValidSelection(selectedItem));
         if (this.isExit(selectedItem)) {

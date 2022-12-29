@@ -1,9 +1,9 @@
 package tetris.model;
 
-import org.fran.azorin.gamehub.tetris.model.Coordinate;
-import org.fran.azorin.gamehub.tetris.model.Gameboard;
-import org.fran.azorin.gamehub.tetris.model.Piece;
-import org.fran.azorin.gamehub.tetris.model.Rotation;
+import org.fran.azorin.gamehub.games.tetris.model.Coordinate;
+import org.fran.azorin.gamehub.games.tetris.model.Gameboard;
+import org.fran.azorin.gamehub.games.tetris.model.Piece;
+import org.fran.azorin.gamehub.games.tetris.model.Rotation;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
